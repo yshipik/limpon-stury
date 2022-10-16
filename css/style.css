@@ -1,0 +1,114 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 80px;
+    color: #192b59;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.nav {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7ea9;
+    text-transform: uppercase;    
+}
+
+.nav a {
+    color: #6e7ea9;
+}
+
+.grid h2 {
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+
+}
+
+.grid h2 span {
+    font-size: 14px;
+    color: #1085e4;
+    display: block;
+}
+
+.grid p {
+    color: #7581a1;
+    font-size: 16px;
+}
+
+.grid a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+
+}
+
+.grid h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #192b59;
+}
+
+.grid div p span {
+    font-size: 14px;
+    color: #1085e4;
+}
+
+#rosalina {
+    font-weight: bold;
+    color: #192b59;
+    font-size: 16px;
+}
+
+.subscribe div div h2 {
+    color: white;
+    font-weight: 600;
+    
+}
+
+.subscribe div div h2 span {
+    display: block;
+    font-size: 14px;
+    font-weight: 900;
+    color:#00bffe;
+}
+
+.subscribe div div p {
+    color: #dfe8ff;
+    font-size: 18px;
+}
+.subcribe-signup-form input[type="email"] {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #b1c3ee;
+
+}
+
+.subcribe-signup-form button {
+    background-color: #1085e4;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14x;
+    border: none;
+    border-radius: 10px;
+}
+
+.subscribe {
+    background-image: linear-gradient(90deg, #0a2090, #2377cd);
+}
+
+.subcribe-signup-form {
+    border: 2px solid #2377cd;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
