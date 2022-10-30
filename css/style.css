@@ -96,10 +96,8 @@ li {
     background-color: #1085e4;
     color: white;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 14x;
     border: none;
-    border-radius: 10px;
 }
 
 .subscribe {
@@ -111,4 +109,105 @@ li {
     padding: 10px;
     border-radius: 10px;
     width: 300px;
+}
+
+.btn-secondary {
+    background-color: #ededed;
+    text-transform: uppercase;
+    color: #787878;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 20px 30px;
+    border: 0px solid #1085e4;
+    transform: rotate(0deg); 
+}
+
+.btn-primary {
+    background-color: #1085e4;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 20px 30px;
+    border: 0px solid #1085e4;
+    transform: rotate(0deg);
+    transition: transform 1s 0s;
+}
+
+button:hover {
+    transform: rotate(360deg);
+    transition: transform 0s 1s;
+}
+
+.btn-free {
+    font-weight: 400;
+    font-size: 10px;
+    padding: 19px 45px;
+    letter-spacing: 1px;
+}
+
+.btn-transparent {
+    background: none;
+    padding: 15px 50px;
+    border: 1px solid #7f7f7f;
+    display: inline-block;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+.btn-transparent-plan {
+    font-size: 11px;
+}
+.btn-control {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-software {
+    padding: 17px 35px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.btn-software-learn {
+    padding: 20px 35px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+
+.btn-analytics {
+    padding: 18px 35px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.btn-control {
+    padding: 16px 55px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.btn-price-active {
+    padding: 16px 55px;
+    letter-spacing: 1px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.btn-sumbit {
+    letter-spacing: 2px;
+    font-size: 9px;
+    padding: 18px 55px;
+}
+
+.btn-subscribe {
+    padding: 13px 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 12px;
 }
