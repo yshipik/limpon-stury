@@ -440,3 +440,43 @@ li {
     color: #fff;
     font-size: 60px;
 }
+
+.page-grid {
+    display: grid;
+    grid-template-areas: " title a b" "c a b" " c a b" " c d e" "f d e" " f g g";
+}
+.grid-item-title {
+    grid-area: title;
+}
+.grid-item {
+    text-align: center;
+    box-shadow: 0 0 5px #f4f4f4;
+}
+.grid-item-1 {
+    grid-area: a;
+}
+
+.grid-item-2 {
+    grid-area: b;
+}
+
+.grid-item-3 {
+    grid-area: c;
+}
+
+.grid-item-4 {
+    grid-area: d;
+}
+
+.grid-item-5 {
+    grid-area: e;
+}
+
+.grid-item-6 {
+    grid-area: f;
+}
+
+
+.grid-item-7 {
+    grid-area: g;
+}
